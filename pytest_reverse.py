@@ -12,10 +12,12 @@ def test_single():
     answer = reverses.reverse(test_case)
     assert answer == "abc"
 
+
 def test_two_words():
     test_case = "Hello World"
     answer = reverses.reverse(test_case)
     assert answer == "World Hello"
+
 
 def test_sentence():
     test_case = "My name is V Tadimeti"

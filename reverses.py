@@ -12,3 +12,9 @@ def reverse( input_str ):
     reversed_str = ' '.join(reversed(words)) 
 
     return reversed_str
+
+
+print("Enter a sentence and this program will reverses this sentence")
+val = input("Enter a sentence: ")
+val = reverse(val)
+print(val)
